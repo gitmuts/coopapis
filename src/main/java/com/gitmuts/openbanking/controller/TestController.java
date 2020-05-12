@@ -52,10 +52,10 @@ public class TestController {
     private PesalinkRequest getSampleRequest() {
         PesalinkRequest request = new PesalinkRequest();
 
-        request.setMessageReference("40ca18c6765086089a12");
+        request.setMessageReference("40ca18c6765086089a1200");
         request.setCallBackUrl("http://localhost:8000");
         Source source = new Source();
-        source.setAccountNumber("12345678912345");
+        source.setAccountNumber("36001873000");
         source.setAmount("100");
         source.setTransactionCurrency("KES");
         source.setNarration("Supplier Payment");
@@ -66,7 +66,7 @@ public class TestController {
         destinations.setReferenceNumber("40ca18c6765086089a712");
         destinations.setAccountNumber("54321987654321");
         destinations.setBankCode("11");
-        destinations.setBankCode("00011001");
+        destinations.setBranchCode("00011001");
         destinations.setAmount("100");
         destinations.setTransactionCurrency("KES");
         destinations.setNarration("Electricity Payment");
